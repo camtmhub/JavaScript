@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+.search-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+/* ... (código previo) ... */
+
+.results-section {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 400px;
+    display: none; /* Ocultar la sección de resultados inicialmente */
+}
+
+.results-section.show {
+    display: block; /* Mostrar la sección de resultados al buscar */
+    margin-top: 30px;
+}
+
+.results-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.results-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.results-section ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.results-section a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.results-section a:hover {
+    color: #0056b3;
+}
+
+/* ... (código posterior) ... */
+
+
+h2 {
+    font-size: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
